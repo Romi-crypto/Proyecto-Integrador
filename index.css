@@ -1,0 +1,368 @@
+* {
+    margin: 0%; 
+    
+}
+
+body {
+    background-image: url(./body4.jpg);
+   
+}
+
+.header {
+    width: 100%;
+    background-color: black;
+    box-shadow: 2px 4px 5px grey;
+    
+}
+
+
+.nav-barsup {
+    width: 100%;
+    height: 1.5cm;
+    display: flex;
+	align-items: center;
+    color: white;
+    font-family: 'Alfa Slab One', cursive;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-color: black;
+    
+    }
+
+
+.nav-barsup:hover {
+    color: rgb(223, 70, 70);
+    
+}
+
+.imag-logo {
+    height: 1cm;
+    margin: 100px;
+}
+
+
+.nav-barinferior {
+    height: 1cm;
+    align-content: center;
+    margin-top: 1.5cm;
+          
+}
+
+.nav-barinferior li {
+    display: flex;
+    display: inline-block;
+   	line-height: 1cm;
+    list-style: none;
+    margin-left: 70px;
+     
+}
+
+.nav-barlink {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-barinferior:hover {
+    box-shadow:  white 10px 5px 4px 6px;
+} 
+
+.imgportada1 img {
+    height: 25px;
+
+}
+
+.section-info {
+    height: 10cm;
+    background-color: white;
+    margin: 3cm;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 2px 4px 5px grey;
+    text-align: center;
+    
+    
+}
+
+.section-info h1 {
+    font-family: 'Alfa Slab One', cursive; 
+}
+
+.section-info h1:hover {
+    color: rgb(223, 70, 70);
+    text-shadow: 1px 2px 2px grey;
+
+}
+
+.info-inicio {
+    margin: 200px;
+    line-height: 30px;
+}
+
+.info-inicio h1 {
+    margin-bottom: 40px;
+}
+
+
+.pagelandingbotton {
+background-color: black;
+color: white;    
+box-shadow: 2px 4px 5px grey;
+border-radius: 50px;
+height: 40px;
+margin: 20px;
+}
+
+.pagelandingbotton:hover {
+background-color: rgb(223, 70, 70);
+}
+
+.section-txtnosotros{
+    height: 10cm;
+    background-color: white;
+    margin: 3cm;
+    display: flex;
+    flex-direction: row-reverse;
+    box-shadow: 2px 4px 5px grey;
+}
+
+
+.encabezadoaboutus {
+    text-align: center;
+    height: 0.1cm;
+    width: 100%;
+    margin-top: 20px;
+}
+
+ 
+
+.encabezadoaboutus h1 {
+    margin-left: 50px;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.encabezadoaboutus h1:hover {
+    color: rgb(223, 70, 70);
+    text-shadow: 1px 2px 2px grey;
+}
+
+.texto-abaoutus {
+    font-weight: 600;
+    text-align: justify;
+    padding: 70px;
+    line-height: 1.5;
+    flex-wrap: wrap;
+}
+
+
+.imag-aboutus {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 70px;
+ }
+
+.imag-aboutus img{
+    height: 40px;
+    margin-left: 50px;
+    flex-wrap: wrap;
+}
+
+
+.imagen__abaoutus2{
+    margin-left: 50px;
+}
+
+
+
+.officeimage img {
+    height: 200px;
+    align-items: center;
+}
+
+
+.section-ubicaciones {
+    background-color: white;
+    width: 90%;
+    display: flex;
+    margin: 4cm;
+    flex-wrap: wrap;
+}
+
+.ubicaciones-descripcion {
+    width: 100%;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+.ubicaciones-descripcion h1 {
+    font-family: 'Alfa Slab One', cursive;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.ubicaciones-descripcion h1:hover {
+    color: rgb(223, 70, 70);
+    text-shadow: 1px 2px 2px grey;
+    
+}
+
+.conteiner-espacios {
+    display: flex;
+    box-shadow: 2px 4px 5px grey;
+    align-items: center;
+
+}
+
+.officeimage {
+    padding: 20px;
+    text-align: justify;
+ }
+
+
+
+.officeimage h1:hover {
+    color: rgb(223, 70, 70);
+    text-shadow: 1px 2px 2px grey;
+ 
+}
+
+
+
+.conteiner-espacios div:hover {
+    box-shadow: 4px 4px 4px 5px grey
+}
+
+
+
+.section-ubicaciones div img {
+    height: 250px;
+    width: 350px;
+    margin: 5px; 
+    border-radius: 10%;
+    
+}
+
+.section-ubicaciones div img:hover {
+    background-color: gray;
+    opacity: 90%;
+}
+
+.section-ubicaciones button {
+    background-color: black;
+    box-shadow: 2px 4px 5px grey;
+    color: white;
+    border-radius: 50px;
+    height: 40px;
+    margin: 10px;
+   
+
+}
+
+.section-ubicaciones button:hover {
+    background-color: rgb(223, 70, 70);
+} 
+
+
+
+
+.contacto-container{
+    margin: 0%;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.imagenglobodialogo {
+height: 30px;
+margin: 15px;
+}
+
+.info-contacto {
+    height: 50%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 100px;
+}
+
+.info-contacto p {
+    line-height: 0.5cm;
+}
+
+.contacto-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.contacto-container img {
+    margin: 25px;
+    
+}
+
+.info-contacto h2 {
+    margin: 20px;
+
+}
+
+.info-contacto p {
+    font-style: oblique;
+    font-weight: 600;
+    text-align: justify;
+    line-height: 1.5;
+
+}
+
+.form-register {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    height: 100%;
+    padding: 30px;
+    border-radius: 4px;
+    color: white;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.controls{
+    margin: 8px;
+    height: 30px;
+    width: 50%;
+    border-radius: 5%;
+}
+
+.button-registrar {
+background-color: white;
+color: black;    
+box-shadow: 2px 4px 5px grey;
+border-radius: 50px;
+height: 40px;
+margin: 10px;
+width: 300px
+ 
+}
+
+.button-registrar:hover {
+    background-color: rgb(223, 70, 70);
+} 
+
+.footer-container {
+    justify-content: space-between;
+    font-size: 15px;
+   
+}
+
+.footer-container li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+    
+}
